@@ -1,0 +1,1 @@
+*/10 * * * * cd /opt/automated-ml-drift-risk-monitor && /opt/automated-ml-drift-risk-monitor/.venv/bin/python fullprocess.py
