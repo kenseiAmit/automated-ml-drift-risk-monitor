@@ -1,9 +1,13 @@
-# Automated Corporate Attrition Risk Monitoring, Drift Detection & Retraining Pipeline
+<div align="center">
+  <img src="assets/hero-banner.svg" alt="Automated ML Drift & Risk Monitor" width="100%" />
+  <br/><br/>
+  ![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?style=flat-square&logo=python&logoColor=white)
+  ![Flask](https://img.shields.io/badge/Flask%20%2B%20Gunicorn-Diagnostics%20API-000000?style=flat-square&logo=flask)
+  ![MLOps](https://img.shields.io/badge/Control%20Loop-Automated%20Drift%20Retraining-0D9488?style=flat-square)
+  ![License](https://img.shields.io/badge/License-MIT-slate?style=flat-square)
+</div>
 
-![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?style=flat-square&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask%20%2B%20Gunicorn-Diagnostics%20API-000000?style=flat-square&logo=flask)
-![MLOps](https://img.shields.io/badge/Control%20Loop-Automated%20Drift%20Retraining-0D9488?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-slate?style=flat-square)
+---
 
 Closed-loop MLOps dynamic risk assessment and concept-drift remediation system in Python and Flask. Continuously monitors `sourcedata/` via a 10-minute Cron loop (`fullprocess.py`), performs deduplicated multi-source ingestion, evaluates **raw-comparison F1 model drift** against the deployed champion (`production_deployment/latestscore.txt`), conditionally triggers automated retraining + redeployment, regenerates confusion matrices, and captures live diagnostic telemetry across 4 REST endpoints.
 
