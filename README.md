@@ -1,10 +1,12 @@
 <div align="center">
-  <img src="assets/hero-banner.svg" alt="Automated ML Drift & Risk Monitor" width="100%" />
+  <img src="assets/hero-banner.svg" alt="Automated ML Drift &amp; Risk Monitor" width="100%" />
   <br/><br/>
-  ![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?style=flat-square&logo=python&logoColor=white)
-  ![Flask](https://img.shields.io/badge/Flask%20%2B%20Gunicorn-Diagnostics%20API-000000?style=flat-square&logo=flask)
-  ![MLOps](https://img.shields.io/badge/Control%20Loop-Automated%20Drift%20Retraining-0D9488?style=flat-square)
-  ![License](https://img.shields.io/badge/License-MIT-slate?style=flat-square)
+  <p>
+    <img src="https://img.shields.io/badge/Python-3.11%2B-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" />
+    <img src="https://img.shields.io/badge/Flask%20%2B%20Gunicorn-Diagnostics%20API-000000?style=flat-square&amp;logo=flask" alt="Flask" />
+    <img src="https://img.shields.io/badge/Control%20Loop-Automated%20Drift%20Retraining-0D9488?style=flat-square" alt="MLOps" />
+    <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-475569?style=flat-square" alt="License" /></a>
+  </p>
 </div>
 
 ---
