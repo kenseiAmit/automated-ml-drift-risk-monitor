@@ -11,6 +11,8 @@
 
 ---
 
+![Closed-Loop ML Drift Detection & Automated Retraining Blueprint](docs/images/architecture_blueprint.png)
+
 Closed-loop MLOps dynamic risk assessment and concept-drift remediation system in Python and Flask. Continuously monitors `sourcedata/` via a 10-minute Cron loop (`fullprocess.py`), performs deduplicated multi-source ingestion, evaluates **raw-comparison F1 model drift** against the deployed champion (`production_deployment/latestscore.txt`), conditionally triggers automated retraining + redeployment, regenerates confusion matrices, and captures live diagnostic telemetry across 4 REST endpoints.
 
 ![Closed-Loop Drift & Diagnostics Telemetry](images/drift_control_loop_telemetry.png)
